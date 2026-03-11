@@ -1,0 +1,9 @@
+C:\Users\DRT\source\repos\DriverLicense_DAL\bin\Debug\DriverLicense_DAL.dll
+C:\Users\DRT\source\repos\DriverLicense_DAL\bin\Debug\DriverLicense_DAL.pdb
+C:\Users\DRT\source\repos\DriverLicense_DAL\obj\Debug\DriverLicense_DAL.csproj.AssemblyReference.cache
+C:\Users\DRT\source\repos\DriverLicense_DAL\obj\Debug\DriverLicense_DAL.csproj.CoreCompileInputs.cache
+C:\Users\DRT\source\repos\DriverLicense_DAL\obj\Debug\DriverLicense_DAL.dll
+C:\Users\DRT\source\repos\DriverLicense_DAL\obj\Debug\DriverLicense_DAL.pdb
+C:\Users\DRT\source\repos\DriverLicense_DAL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\DRT\source\repos\DriverLicense_DAL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\DRT\source\repos\DriverLicense_DAL\obj\Debug\DriverLi.6762387D.Up2Date
