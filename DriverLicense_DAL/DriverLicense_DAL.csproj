@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationType.cs" />
     <Compile Include="clsCountryData.cs" />
     <Compile Include="clsPerson.cs" />
     <Compile Include="clsPersonData.cs" />

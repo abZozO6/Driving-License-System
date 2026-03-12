@@ -26,7 +26,7 @@ namespace DriverLicense_DAL
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
 
-                        command.Parameters.AddWithValue("@CountryID", ID);
+                        command.Parameters.AddWithValue("@ID", ID);
 
                         connection.Open();
 
