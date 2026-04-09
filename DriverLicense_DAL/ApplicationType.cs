@@ -18,7 +18,7 @@ namespace DriverLicense_DAL
 
             bool isFound = false;
 
-            string qeury = "SELECT * FROM Country WHERE ApplicationTypeID = @ApplicationTypeID;";
+            string qeury = "SELECT * FROM ApplicationTypes WHERE ApplicationTypeID = @ApplicationTypeID;";
 
             try
             {
@@ -97,7 +97,7 @@ namespace DriverLicense_DAL
 
                 }
             }
-            catch (Exception ex) { }
+            catch (Exception ex) { throw; }
 
             return dt;
 
@@ -118,7 +118,7 @@ namespace DriverLicense_DAL
             {
                 using (SqlConnection connection = new SqlConnection(clsDALsettings.ConnectionString))
                 {
-
+                    
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         connection.Open();

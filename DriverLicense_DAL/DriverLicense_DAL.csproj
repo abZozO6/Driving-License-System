@@ -45,12 +45,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationType.cs" />
+    <Compile Include="clsApplication.cs" />
     <Compile Include="clsCountryData.cs" />
+    <Compile Include="clsDetainedLicenseData.cs" />
+    <Compile Include="clsDriver.cs" />
+    <Compile Include="clsInternationalLicenseData.cs" />
+    <Compile Include="clsLicense.cs" />
+    <Compile Include="clsLocalDrivingLicenseApplicationData.cs" />
     <Compile Include="clsPerson.cs" />
     <Compile Include="clsPersonData.cs" />
     <Compile Include="clsDALsettings.cs" />
+    <Compile Include="clsTest.cs" />
+    <Compile Include="clsTestAppointmentData.cs" />
+    <Compile Include="clsTestType.cs" />
     <Compile Include="clsUser.cs" />
     <Compile Include="clsUserData.cs" />
+    <Compile Include="LicenseClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
