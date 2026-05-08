@@ -11,7 +11,8 @@ namespace DriverLicense_DAL
     public class clsDetainedLicenseData
     {
         public static bool GetDetainedLicenseInfoByID(int DetainID, ref int LicenseID, ref DateTime DetainDate,ref float FineFees, 
-        ref int CreatedByUserID, ref bool IsReleased, ref DateTime ReleaseDate, ref int ReleasedByUserID, ref int ReleaseApplicationID)
+        ref int CreatedByUserID, ref bool IsReleased,
+        ref DateTime? ReleaseDate, ref int ReleasedByUserID, ref int? ReleaseApplicationID)
         {
             bool isFound = false;
 
@@ -58,7 +59,8 @@ namespace DriverLicense_DAL
 
 
         public static bool GetDetainedLicenseInfoByLicenseID(int LicenseID, ref int DetainID, ref DateTime DetainDate,
-        ref float FineFees, ref int CreatedByUserID, ref bool IsReleased, ref DateTime ReleaseDate,  ref int ReleasedByUserID, ref int ReleaseApplicationID)
+        ref float FineFees, ref int CreatedByUserID, ref bool IsReleased,
+        ref DateTime? ReleaseDate,  ref int ReleasedByUserID, ref int? ReleaseApplicationID)
         {
             bool isFound = false;
 

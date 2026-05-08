@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DriverLicense_DAL
 {
-    public class clsApplication
+    public class clsApplicationData
     {
 
 
